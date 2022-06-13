@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "git-workshop", "git-workshop\git-workshop.csproj", "{ABB93DE6-2763-422A-9A5A-9F1F771BC5A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABB93DE6-2763-422A-9A5A-9F1F771BC5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB93DE6-2763-422A-9A5A-9F1F771BC5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB93DE6-2763-422A-9A5A-9F1F771BC5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB93DE6-2763-422A-9A5A-9F1F771BC5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
