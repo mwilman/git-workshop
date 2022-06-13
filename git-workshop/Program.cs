@@ -1,22 +1,23 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Globalization;
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hallo, Welt!");
+Console.WriteLine("Guten Tag lieber Nutzer, World!");
 
 Console.WriteLine("Bitte geben Sie eine Zahl ein");
-string? eingabe1 = Console.ReadLine();
+string? ersteEingabe = Console.ReadLine();
 
 Console.WriteLine("Bitte geben Sie eine zweite Zahl ein");
-string? eingabe2 = Console.ReadLine();
-int zahl1 = 0, zahl2 = 0;
+string? zweiteEingabe = Console.ReadLine();
+int ersteZahl = 0, zweiteZahl = 0;
 try
 {
-    zahl1 = int.Parse(eingabe1 ?? "0");
-    zahl2 = int.Parse(eingabe2 ?? "0");
+    ersteZahl = int.Parse(ersteEingabe ?? "0");
+    zweiteZahl = int.Parse(zweiteEingabe ?? "0");
 }
 catch
 {
     Console.Error.WriteLine("Bei der Umwandlung der Eingabe ist ein Fehler aufgetreten");
 }
 
-Console.WriteLine($"Die erste Zahl ist {zahl1}");
-Console.WriteLine($"Die zweite Zahl ist {zahl2}");
+Console.WriteLine($"Die erste Zahl ist {ersteZahl}");
+Console.WriteLine($"Die zweite Zahl ist {zweiteZahl}");
