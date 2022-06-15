@@ -21,3 +21,8 @@ catch
 
 Console.WriteLine($"Die erste Zahl ist {ersteZahl}");
 Console.WriteLine($"Die zweite Zahl ist {zweiteZahl}");
+
+Console.WriteLine("Test Debug");
+Console.WriteLine($"{ersteZahl++}");
+Console.WriteLine($"{zweiteZahl--}");
+Console.WriteLine($"Summe: {ersteZahl+zweiteZahl}");
