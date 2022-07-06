@@ -21,3 +21,4 @@ catch
 Console.WriteLine($"Die erste Zahl ist {zahl1}");
 Console.WriteLine($"Die zweite Zahl ist {zahl2}");
 Console.WriteLine($"Die Summe ist {zahl2 + zahl1}");
+Console.WriteLine($"Schöne  Grüsse Maxim");
